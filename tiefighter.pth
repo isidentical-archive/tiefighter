@@ -1,0 +1,7 @@
+try:
+    import tiefighter
+    import codecs
+except ImportError:
+    print('Tiefighter is not properly configured!')
+else:
+    codecs.register(tiefighter.search)
